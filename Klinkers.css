@@ -2,7 +2,7 @@ body{
     font-size: 1.1em;
     font-weight: bold;
     background-color: lightgray;
-    text-align: center
+    text-align: center;
 }
 .input{
     background-color: darkgoldenrod;
@@ -11,21 +11,22 @@ body{
 }
 .button{
     padding-right: 2em;
-    padding-left: 2em;
+   padding-left: 2em;
     font-size: 0.9em;
     background-color: burlywood;
     color: brown;
     transition: 0.5s;
 }
 .button:hover{
-    padding-right: 2.5em;
+    padding-right: 3em;
+    padding-left: 1em;
     cursor: pointer;
     background-color: brown;
     color: white;
 }
 .content{
     margin-top: 1em;
-    width: 22em;
+    width: 21em;
     height: 8em;
     overflow: auto;
     border: solid 2px brown;
@@ -33,4 +34,8 @@ body{
     border-radius: 0em 1em 0em 1em;
     margin: 0 auto;
     margin-top: 1em;
+    text-align: left;
+    font-weight: 100;
+    padding-left: 1em;
+    padding-top: 1em;
 }
